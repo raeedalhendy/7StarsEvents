@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: "Roboto", serif;
+  
+}
+
+@font-face {
+  font-family: 'Bauhaus';
+  src: url('./fonts/BauhausItalic.ttf') format('truetype');
+  /* إذا كنت تستخدم صيغة .woff أو .woff2: */
+  /* src: url('/fonts/Bauhaus.woff') format('woff'); */
+}
